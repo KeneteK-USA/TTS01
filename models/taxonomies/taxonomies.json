@@ -37,6 +37,10 @@
       {
          "label": "flay",
          "type": "string"
+      },
+      {
+         "label": "trip",
+         "type": "string"
       }
    
    ]
