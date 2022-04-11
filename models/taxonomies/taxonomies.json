@@ -1,0 +1,31 @@
+// List of fact taxonomies.
+{
+   "identity": 0,
+   "taxonomies": [
+      {
+         "label": "fullname",
+         "type": "string",
+         "fragments": [
+            {
+               "label": "firstname",
+               "type": "string"
+            },
+            {
+               "label": "middlename",
+               "type": "string"
+            },
+            {
+               "label": "lastname",
+               "type": "string"
+            }
+         ]
+      },
+      {
+         "label": "address",
+         "country": "string",
+         "city": "string",
+         "zip": "string",
+         "name": "string"
+      }
+   ]
+}
