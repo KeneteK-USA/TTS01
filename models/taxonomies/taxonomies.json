@@ -3,29 +3,37 @@
    "identity": 0,
    "taxonomies": [
       {
-         "label": "fullname",
-         "type": "string",
-         "fragments": [
-            {
-               "label": "firstname",
-               "type": "string"
-            },
-            {
-               "label": "middlename",
-               "type": "string"
-            },
-            {
-               "label": "lastname",
-               "type": "string"
-            }
-         ]
+         "label": "firstname",
+         "type": "string"
       },
       {
-         "label": "address",
-         "country": "string",
-         "city": "string",
-         "zip": "string",
-         "name": "string"
+         "label": "middlename",
+         "type": "string"
+      },
+      {
+         "label": "lastname",
+         "type": "string"
+      },
+      {
+         "label": "fullname",
+         "type": "string"
+      },
+      {
+         "label": "country",
+         "type": "string"
+      },
+      {
+         "label": "city",
+         "type": "string"
+      },
+      {
+         "label": "zip",
+         "type": "string"
+      },
+      {
+         "label": "street",
+         "type": "string"
       }
+   
    ]
 }
